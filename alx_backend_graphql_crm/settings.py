@@ -27,8 +27,11 @@ INSTALLED_APPS = [
     'django_filters',
     'crm',
 ]
+
 GRAPHENE = {
     "SCHEMA": "alx_backend_graphql_crm.schema.schema",
+    "MIDDLEWARE": [],
+    "SCHEMA_INDENT": 2,  # For pretty JSON output
 }
 
 
